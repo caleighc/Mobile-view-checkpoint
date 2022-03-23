@@ -410,6 +410,9 @@ input[type=submit]:hover {
   .title-education {
     height: 200px;
   }
+  input[type=submit] {
+    width: 30%;
+  }
 
 
 }
