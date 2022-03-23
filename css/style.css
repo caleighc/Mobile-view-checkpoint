@@ -1,7 +1,11 @@
 body {
   font-family: 'Space Mono', monospace;
   color: #3B3C42;
-  background-color: #F9F6F0 ;
+  background-color: #F9F6F0;
+  width: 100vw;
+  height: 100%;
+  left: 0;
+  right: 0;
 }
 
 h2 {
@@ -406,7 +410,11 @@ input[type=submit]:hover {
 
 @media only screen and (max-device-width: 500px) {
   body {
-    width: 100%;
+    width: 100vw;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background-color: red;
   }
   .title-education {
     height: 200px;
