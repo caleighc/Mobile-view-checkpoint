@@ -6,36 +6,37 @@
         <link rel="icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/html5reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
         <title>About Me</title>
     </head>
 
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li class="index"><a href="index.html">My College Life</a></li>
-                    <li><a href="mental-health.html">Mental Health</a></li>
-                    <li><a href="food.html">Food</a></li>
-                    <li><a href="school.html">School</a></li>
-                </ul>
-            </nav>
-            <h1>Food</h1><br><br>
-            <h2>What I eat in College</h2><br>
+                <img class="logo" src="images/favicon.ico" alt="logo">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="mental-health.html">WELLNESS</a></li>
+                        <li><a href="food.html">FOOD</a></li>
+                        <li><a href="school.html">EDUCATION</a></li>
+                    </ul><hr>
+                </nav>
+                <div class="title-food">
+                    <h1>FOOD</h1>
+                </div>
+            <hr>
         </header>
 
-        <main>
+        <main class="container" id="main">                
             <div class="groceries">
-            <p>Grocery Shopping</p>
+            <h2>Grocery Shopping</h2>
 
-            <!-- Probably going to move the Umamit photo to the resteraunts section -->
-            <div class=hover>
+            <div class=grocery-pics>
             <img src="images/imperfectfoods.jpg" alt="A photo of Imperfect foods
                 groceries">
             <img src="images/traderjoes.jpg" alt="A photo of Trader Joe's">
-            <!-- Going to crop this image later -->
             <img src="images/umamit.jpg" alt="A photo of my food Insta">
             </div>
-            <!-- Could add more to this paragraph -->
             <p>As a college student I do not have a lot of money to spend on
                 food so I
                 have to cook most of my meals. I get my groceeries from Trader
@@ -44,7 +45,6 @@
                 Over the past
                 few years I have perfected my grocery list.
             </p>
-            <!-- Going to edit the grocery list -->
             <ul style="list-style-type: disc">
                 <li>Almond milk</li>
                 <li>Parmesan cheese</li>
@@ -64,7 +64,7 @@
             </ul><br><br><br>
             </div>
             <div class="cooking">
-            <h3>Cooking</h3>
+            <h2>Cooking</h2>
 
             <p>I love to cook and try out new recipes! Some of my favorite
                 things I have
@@ -101,7 +101,7 @@
                 <li>Enjoy!</li>
 
             </ol><br>
-            <div class="hover">
+            <div class="cooking-pics">
             <img src="images/friedrice.jpg" alt="A photo of homemade fried
                 rice">
             <img src="images/cooking.jpg" alt="A photo of homemade chipotle
@@ -109,8 +109,9 @@
             <img src="images/breakfast.jpg" alt="A photo of breakfast spread">
             </div>
             </div>
+
             <div class="eating">
-            <h4>Eating Out</h4><br>
+            <h2>Eating Out</h2><br>
 
             <p>I love exploring new restaurant in Ann Arbor on the weekends, but
                 I definitely have my favorites! My go to late night snack is a
@@ -121,7 +122,7 @@
                 lunch spot is Poke Fish. I always get
                 the same thing: a tuna poke bowl with tons of toppings (on the
                 right). </p>
-            <div class="hover">
+            <div class="eating-pics">
             <img src="images/joes.jpg" alt="A photo of Joe's pizza">
             <img src="images/salad.jpg" alt="A photo of Salad">
             <img src="images/pokefish.jpg" alt="A photo of Poke fish">
@@ -130,7 +131,11 @@
         </main>
 
         <footer>
-            <p>Caleigh Crossman &copy; 2020</p>
+            <hr>
+            <div class="footer" id="back">
+                <a href="#main">Back to top</a>
+                <p>Caleigh Crossman &copy; 2022</p>
+            </div>
         </footer>
     </body>
 </html>

@@ -6,45 +6,53 @@
         <link rel="icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/html5reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
         <title>About Me</title>
     </head>
 
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li class="index"><a href="index.html">My College Life</a></li>
-                    <li><a href="mental-health.html">Mental Health</a></li>
-                    <li><a href="food.html">Food</a></li>
-                    <li><a href="school.html">School</a></li>
-                </ul>
-            </nav>
-            <div class="life">
-            <h1>My College Life</h1><br><br>
-            </div>
+                <img class="logo" src="images/favicon.ico" alt="logo">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="mental-health.html">WELLNESS</a></li>
+                        <li><a href="food.html">FOOD</a></li>
+                        <li><a href="school.html">EDUCATION</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul><hr>
+                </nav>
+                <div class="title">
+                    <h1>MY LIFE AT THE UNIVERSITY OF MICHIGAN</h1>
+                </div>
+            <hr>
         </header>
 
-        <main>
-            <!-- Paragraph about myself that needs to be edited -->
+        <main class="container" id="main">                
+    
+                <!-- <img class="header-photo" src="images/bighouse.jpg" alt="bighouse"> -->
+            
             <div class="intro">
-            <p>I am a student at the
-                <a href="https://umich.edu/">University of Michigan</a>
-                I am studying computer science. I am applying to the School of
-                Information
-                where I want to pursue a UX Design major.
-                I am originally from Los Angeles, California. At home I live 5
-                minutes from
-                the beach so I love to surf and swim on the weekends. Coming
-                from California all
-                the way to Michigan has been a big adjustment for me so I am
-                going to share
-                some of my college tips!</p>
-            <div class=hover>
+                <p>I am a student at the
+                    <a href="https://umich.edu/">University of Michigan</a>
+                    I am studying computer science. I am applying to the School of
+                    Information
+                    where I want to pursue a UX Design major.
+                    I am originally from Los Angeles, California. At home I live 5
+                    minutes from
+                    the beach so I love to surf and swim on the weekends. Coming
+                    from California all
+                    the way to Michigan has been a big adjustment for me so I am
+                    going to share
+                    some of my college tips!</p>
+            </div>
+
+            <div class="self-photo">
                 <img src="images/me.jpg" alt="A photo of me and my friends.">
             </div>
-            <p>Above is a photo I took right after I got accepted to the
-                University of Michigan!</p>
-            </div>
+
             <div class="website-intro">
             <p>It is very important to have a balanced lifestyle in college.
                 School can be very challenging so it is very important to have
@@ -53,27 +61,29 @@
                 have a consistent meal plan. Last, it is crucial to have well
                 thought out schedule to get all your schoolwork done.</p>
             </div>
+
             <br><br>
             <form
                 action="https://formspree.io/f/xqknlqvd"
                 method="POST"
+                id="contact"
             >
                     <fieldset>
-                    <legend>Fill out the form below to recieve additional information!</legend><br>
+                    <legend>Fill out the form below if you have any questions or comments!</legend><br>
                 
-                    <label for="name_id">Your Name</label>
-                    <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
+                    <label for="name_id">Your Name</label><br>
+                    <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required><br>
                 
-                    <label for="email_id">Your Email</label>
-                    <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+                    <label for="email_id">Your Email</label><br>
+                    <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required><br>
                 
-                    <label for="phone_id">Your Phone Number</label>
-                    <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <label for="phone_id">Your Phone Number</label><br>
+                    <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
                     <div><span>Format: 123-456-7890</span></div>
                 
                 
-                    <label for="msg">Optional message</label>
-                    <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br><br><br>
+                    <label for="msg">Message</label><br>
+                    <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br><br><br><br>
                 
                     <input type="submit" value = "Contact Me">
                     </fieldset>
@@ -81,7 +91,11 @@
         </main>
 
         <footer>
-            <p>Caleigh Crossman &copy; 2020</p>
+            <hr>
+            <div class="footer" id="back">
+                <a href="#main">Back to top</a>
+                <p>Caleigh Crossman &copy; 2022</p>
+            </div>
         </footer>
     </body>
 </html>

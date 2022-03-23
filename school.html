@@ -6,23 +6,28 @@
         <link rel="icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/html5reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
         <title>School work</title>
     </head>
 
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li class="index"><a href="index.html">My College Life</a></li>
-                    <li><a href="mental-health.html">Mental Health</a></li>
-                    <li><a href="food.html">Food</a></li>
-                    <li><a href="school.html">School</a></li>
-                </ul>
-            </nav>
-            <h1>School</h1><br><br>
+                <img class="logo" src="images/favicon.ico" alt="logo">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="mental-health.html">WELLNESS</a></li>
+                        <li><a href="food.html">FOOD</a></li>
+                        <li><a href="school.html">EDUCATION</a></li>
+                    </ul><hr>
+                </nav>
+                <div class="title-education">
+                    <h1>EDUCATION</h1>
+                </div>
+            <hr>
         </header>
 
-        <main>
+        <main class="container" id="main">                
             <div class="school">
             <!-- Paragraph about my school work -->
             <p>School can be very overwhelming so it is important to get into a
@@ -32,16 +37,21 @@
                 more classes or do homework. Last, I cook dinner and do my
                 nightly routine.</p>
             </div>
+
             <div class="classes">
-            <h2>My Classes</h2>
-            <ul style="list-style-type: disc">
-                <li>EECS 281</li>
-                <li>SI 339</li>
-                <li>SPANISH 231</li>
-                <li>STATS 250</li>
-            </ul>
-            <div class="hover">
+                <h2>My Classes</h2>
+                <div class="michigan-classes">
+                    <ul style="list-style-type: disc">
+                        <li>EECS 281</li>
+                        <li>SI 339</li>
+                        <li>SPANISH 231</li>
+                        <li>STATS 250</li>
+                    </ul>
             <img src="images/schedule.jpg" alt="A photo of my class schedule.">
+            </div>
+        </div>
+
+            <div class="planner">
             <p>Above is a photo of my class schedule for this semester. My
                 hardest class is definitely EECS 281 and my favorite class is SI
                 339. With such a crazy schedule it is very important to keep a
@@ -52,13 +62,18 @@
                 my planner because if I don't write down all my assignments I
                 sometimes forget to do something. I recommend making a new page
                 in your planner for each day to keep things organized.</p>
-            <img src="images/planner.jpg" alt="A photo of a planner.">
             </div>
+            <div class="planner-img">
+                <img src="images/planner.jpg" alt="A photo of a planner.">
             </div>
         </main>
 
         <footer>
-            <p>Caleigh Crossman &copy; 2020</p>
+            <hr>
+            <div class="footer" id="back">
+                <a href="#main">Back to top</a>
+                <p>Caleigh Crossman &copy; 2022</p>
+            </div>
         </footer>
     </body>
 </html>
