@@ -407,6 +407,9 @@ input[type=submit]:hover {
   body {
     width: 100%;
   }
+  .title-education {
+    height: 200px;
+  }
 
 
 }
