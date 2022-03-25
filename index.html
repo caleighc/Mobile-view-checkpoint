@@ -6,36 +6,29 @@
         <link rel="icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/html5reset.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/55da730a01.js" crossorigin="anonymous"></script>
         <title>About Me</title>
     </head>
 
     <body>
+        <a class = "skip" href="#main">Skip to Main Content</a>
         <header>
-                <img class="logo" src="images/favicon.ico" alt="logo">
-                <nav>
-                    <div class="nav">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="mental-health.html">WELLNESS</a></li>
-                        <li><a href="food.html">FOOD</a></li>
-                        <li><a href="school.html">EDUCATION</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul><hr>
-                </div>
-                </nav>
-                <div class="title">
-                    <h1>MY LIFE AT THE UNIVERSITY OF MICHIGAN</h1>
-                </div>
-            <hr>
-        </header>
-
-        <main class="container" id="main">                
-    
-                <!-- <img class="header-photo" src="images/bighouse.jpg" alt="bighouse"> -->
-            
+            <img class="logo" src="images/favicon.ico" alt="logo" id="logo">
+            <nav>
+                <ul class="nav">
+                    <li><a href="mental-health.html">WELLNESS</a></li>
+                    <li><a href="food.html">FOOD</a></li>
+                    <li><a href="school.html">EDUCATION</a></li>
+                    <a href="#contact">CONTACT</a>
+                </ul><hr>
+            </nav>
+            <div class="title">
+                <h1>My Life at The University of Michigan</h1>
+            </div>
+        <hr>
+    </header>
+                        
             <div class="intro">
                 <p>I am a student at the
                     <a href="https://umich.edu/">University of Michigan</a>
@@ -50,12 +43,12 @@
                     going to share
                     some of my college tips!</p>
             </div>
-
+            <div class="intro-div">
             <div class="self-photo">
                 <img src="images/me.jpg" alt="A photo of me and my friends.">
             </div>
-
             <div class="website-intro">
+                <h2>About Me</h2>
             <p>It is very important to have a balanced lifestyle in college.
                 School can be very challenging so it is very important to have
                 outlets to release stress. I rely a lot on my friends to keep me
@@ -63,7 +56,7 @@
                 have a consistent meal plan. Last, it is crucial to have well
                 thought out schedule to get all your schoolwork done.</p>
             </div>
-
+        </div>
             <br><br>
             <form
                 action="https://formspree.io/f/xqknlqvd"
@@ -91,11 +84,9 @@
                     </fieldset>
                 </form>
         </main>
-
         <footer>
-            <hr>
             <div class="footer" id="back">
-                <a href="#main">Back to top</a>
+                <a href="#logo">Back to top </a><i class="fa-solid fa-arrow-up"></i>
                 <p>Caleigh Crossman &copy; 2022</p>
             </div>
         </footer>
