@@ -370,7 +370,7 @@ img:hover {
 
 .hiking-content {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     height: auto;
 }
 
@@ -768,6 +768,23 @@ a.skip:focus {
     }
     .self-photo {
         margin: 20px;
+    }
+    .example {
+        display: none;
+    }
+    .hiking {
+        height: auto;
+        width: auto;
+        background-color: #A9C9D1;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding: 5%;
+        column-gap: 10px;
+    }
+    .hiking-content img {
+        justify-self: center;
     }
 }
 
